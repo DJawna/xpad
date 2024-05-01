@@ -1,4 +1,4 @@
-obj-m = xpad-dja.o
+obj-m = xpad.o
 
 KVERSION = $(shell uname -r)
 all:
