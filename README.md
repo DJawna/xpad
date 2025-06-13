@@ -1,3 +1,5 @@
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/O5O514FGIG)
+
 # Updated Xpad Linux Kernel Driver
 Driver for the Xbox/ Xbox 360/ Xbox 360 Wireless/ Xbox One Controllers
 
@@ -7,6 +9,7 @@ This driver includes the latest changes in the upstream linux kernel and additio
 * support for xbox360 class controllers, that need initialisation
 * support for xbox one elite paddles
 * xpad360w: power-off by long-pressing the power button
+* support Guitar Hero Live xbox one controller
 
 ## Xbox One Controllers
 This driver is only used if you connect the controller via USB.
