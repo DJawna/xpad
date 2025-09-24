@@ -66,13 +66,8 @@
 #include <linux/bits.h>
 #include <linux/kernel.h>
 #include <linux/input.h>
-#include <linux/rcupdate.h>
-#include <linux/slab.h>
 #include <linux/stat.h>
 #include <linux/module.h>
-#include <linux/usb/input.h>
-#include <linux/usb/quirks.h>
-#include <linux/timer.h>
 
 // backward compatibility. del_timer_sync is renamed to timer_delete_sync since 6.15.0
 #if LINUX_VERSION_CODE < KERNEL_VERSION(6,15,0)
